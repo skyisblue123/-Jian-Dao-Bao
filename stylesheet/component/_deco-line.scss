@@ -1,0 +1,16 @@
+.text:hover {
+    color: $warning;
+}
+
+@media(min-width:1000px) {
+    .text:hover~.deco-line {
+        display: inline-block;
+        border: 1px solid $warning;
+        width: 10px;
+        margin: 0 4px 4px 0;
+        position: absolute;
+        left: -3%;
+        top: 50%;
+
+    }
+}

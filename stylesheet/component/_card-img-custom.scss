@@ -1,0 +1,9 @@
+.card-img-top {
+    /*畫面放大轉場*/
+    transform: scale(1, 1);
+    transition: all 0.5s ease-out;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2, 1.2);
+}
